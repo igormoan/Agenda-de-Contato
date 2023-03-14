@@ -1,16 +1,20 @@
-![](https://i.imgur.com/xG74tOh.png)
 
-# Projeto prático - Módulo 2
+
+# Projeto - Agenda de Contatos
 
 Esse projeto se trata de uma agenda de contatos, onde um usuário poderá se cadastrar, realizar login, adicionar e remover contatos de uma lista.
 
-Para concluir esse desafio prático, você precisará se basear em um arquivo figma, esse arquivo está aqui no repositório com o nome de `projeto.fig`, baixe o arquivo e importe no seu figma :)
 
-Você também pode clicar nesse [link](https://www.figma.com/file/ahfVRDWzpTivoLc6nTTCM2/Aula-pr%C3%A1tica-m%C3%B3dulo-2?node-id=0%3A1) para acessar o figma do projeto.
 
 ---
 
-Veja abaixo as páginas que deverão se desenvolvidas:
+
+<h3>Tecnologias utilizadas:</h3>
+
+ ![](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+ ![](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+ ![](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
 
 ### Sign In
 
@@ -56,31 +60,3 @@ Na página main é preciso ter uma tabela seguindo a estrutura da imagem acima.
 - Ao clicar no ícone da lixeira em qualquer linha, um modal de confirmação da exclusão deve ser aberto
 - Os botões excluir, cancelar e o **X** devem fechar o modal
 
-#### Obs.: Caso tenha dúvidas, assista ao vídeo explicativo
-
----
-
-Preencha a checklist para finalizar o exercício:
-
-- [ ] Fazer o fork do repositório para sua conta
-- [ ] Executar `git clone` do seu fork no terminal para clonar o repositório, ou clonar de outra maneira
-- [ ] Após fazer e commitar todos os exercícios fazer o `git push` para seu fork
-- [ ] Copiar a url do seu fork e enviar na plataforma
-
-#### **DICAS:**
-
-
-Não sabe por onde começar? Que tal começar adicionando os elementos do formulário dentro da TAG html e depois estilizar, só após isso vá para o javascript.
-
-Nesse exercício será necessário: 
-- Usar o evento de submit, lembre-se de não deixar a  página atualizar
-- Usar o evento de clique
-- Criar validação para os campos obrigatórios
-- Selecionar os elementos via querySelector
-- Limpar os inputs
-- Redirecionar o usuário para a página correta
-- Manipular a visibilidade dos  modais
-
-## Quem leu até aqui, dá um grito na monitoria :)
-
-###### tags: `módulo 2` `front-end` `HTML`
