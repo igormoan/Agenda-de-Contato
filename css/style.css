@@ -1,0 +1,43 @@
+.container-sign-in {
+    display: flex;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.left-sign-in {
+    width: 50%;
+}
+
+.left-sign-in img {
+    width: 100%;
+
+}
+
+
+.right-sign-in {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-right-sign-in {
+    display: flex;
+    flex-direction: column;
+    width: 476px;
+
+}
+
+.content-right-sign-in h2 {
+    margin: 9px 0 32px 0;
+}
+
+.content-right-sign-in form button {
+    margin: 56px 0 96px 0;
+}
+
+.content-right-sign-in span:last-child {
+    text-align: center;
+    width: 100%;
+
+}

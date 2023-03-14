@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Main</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,500;1,700&family=Rokkitt:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../../css/global.css">
+    <link rel="stylesheet" href="../../pages/main/styles.css">
+    <link rel="stylesheet" href="../../css/modal.css">
+</head>
+
+<body>
+    <div class="container-main">
+        <header>
+            <div></div>
+            <img class="logo" src="../../assets/logo-kontacts.svg" alt="logo">
+            <img class="sign-out" src="../../assets/vector-saida.svg" alt="">
+        </header>
+
+        <main>
+            <button class="btn-green" id="btn-new-contact">Adicionar</button>
+            <div class="table">
+                <div class="table-header">
+                    <div class="header-column"><strong>Nome</strong></div>
+                    <div class="header-column"><strong>E-mail</strong></div>
+                    <div class="header-column"><strong>Telefone</strong></div>
+                    <div class="header-column"></div>
+                </div>
+
+                <div class="table-body">
+                    <div class="table-line">
+                        <div class="line-column"><span>Claudia M. Sousa</span></div>
+                        <div class="line-column"><span>claudia@teste.com.br
+                            </span></div>
+                        <div class="line-column"><span>(99)9999-9999</span></div>
+                        <div class="line-column action">
+                            <img src="../../assets/delete-icon.svg" alt="delete">
+                        </div>
+                    </div>
+
+                    <div class="table-line">
+                        <div class="line-column"><span>João Santos
+                            </span></div>
+                        <div class="line-column"><span>joao@teste.com.br
+                            </span></div>
+                        <div class="line-column"><span>(99)9999-9999</span></div>
+
+                        <div class="line-column action">
+                            <img src="../../assets/delete-icon.svg" alt="delete">
+                        </div>
+                    </div>
+
+                    <div class="table-line">
+                        <div class="line-column"><span>Pedro Henrique</span></div>
+                        <div class="line-column"><span>pedro.henrque@teste.com.br
+                            </span></div>
+                        <div class="line-column"><span>(99)9999-9999</span></div>
+                        <div class="line-column action">
+                            <img src="../../assets/delete-icon.svg" alt="delete">
+                        </div>
+                    </div>
+
+                    <div class="table-line">
+                        <div class="line-column"><span>Marina Tavares</span></div>
+                        <div class="line-column"><span>marina_tavares@teste.com.br
+                            </span></div>
+                        <div class="line-column"><span>(99)9999-9999</span></div>
+                        <div class="line-column action">
+                            <img src="../../assets/delete-icon.svg" alt="delete">
+                        </div>
+                    </div>
+
+                    <div class="table-line">
+                        <div class="line-column"><span>Daniel Lopes</span></div>
+                        <div class="line-column"><span>daniel.lopes@cubos.academy
+                            </span></div>
+                        <div class="line-column"><span>(99)9999-9999</span></div>
+                        <div class="line-column action">
+                            <img src="../../assets/delete-icon.svg" alt="delete">
+                        </div>
+                    </div>
+
+                    <div class="table-line">
+                        <div class="line-column"><span>Guido Cerqueira</span></div>
+                        <div class="line-column"><span>guido.cerqueira@cubos.academy
+                            </span></div>
+                        <div class="line-column"><span>(99)9999-9999</span></div>
+                        <div class="line-column action">
+                            <img src="../../assets/delete-icon.svg" alt="delete">
+                        </div>
+                    </div>
+
+                    <div class="table-line">
+                        <div class="line-column"><span>Igor Moan</span></div>
+                        <div class="line-column"><span>moanbessa@hotmail.com
+                            </span></div>
+                        <div class="line-column"><span>(99)9999-9999</span></div>
+
+                        <div class="line-column action">
+                            <img src="../../assets/delete-icon.svg" alt="delete">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+        <div class="backdrop">
+            <div class="modal modal-delete">
+                <img src="../../assets/close-icon.svg" alt="close">
+                <h2>Confirma a exclusão?</h2>
+                <span>Deseja excluir o contato?</span>
+
+                <button class="btn-green">Excluir</button>
+                <button class="btn-red">Cancelar</button>
+
+            </div>
+        </div>
+
+        <div class="backdrop">
+            <div class="modal modal-add">
+                <img src="../../assets/close-icon.svg" alt="close">
+                <h2>Novo Contato</h2>
+
+                <form>
+                    <input type="text" placeholder="Name" required />
+                    <input type="email" placeholder="E-mail" required />
+                    <input type="text" placeholder="Telefone">
+
+                    <button class="btn-green">Adicionar</button>
+                    <button class="btn-red" type="button">Cancelar</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <script text="text/javascript" src="../../pages/main/script-main.js"></script>
+
+</body>
+
+</html>

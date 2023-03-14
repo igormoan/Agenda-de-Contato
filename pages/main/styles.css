@@ -1,0 +1,125 @@
+.container-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+.container-main header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    padding: 0 32px;
+    background-color: #134563;
+}
+
+.logo {
+    width: 128px;
+    height: 22px;
+}
+
+.sign-out {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.container-main main {
+    display: flex;
+    flex-direction: column;
+    width: 956px;
+    margin-top: 102px;
+}
+
+.container-main main button {
+    width: 237px;
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+    width: 956px;
+    margin-top: 32px;
+    font-size: 12px;
+    gap: 24px;
+}
+
+.table-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 46px;
+    padding: 0 32px;
+
+    background-color: #f4f0f0;
+
+}
+
+.header-column {
+    width: 30%;
+}
+
+
+
+.table-line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 46px;
+    padding: 0 32px;
+    margin-bottom: 8px;
+    background-color: #fffafa;
+
+}
+
+.line-column {
+    width: 30%;
+}
+
+.action {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.action img {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.modal-delete {
+    height: 319px;
+    visibility: hidden;
+
+}
+
+
+
+.modal-delete span {
+    display: inline-block;
+    margin: 24px 0 32px 0;
+}
+
+.modal-delete button {
+    margin-top: 8px;
+}
+
+.modal-add {
+    height: 563px;
+    visibility: hidden;
+}
+
+.modal-add h2 {
+    margin-bottom: 40px;
+
+}
+
+.modal-add button:first-of-type {
+    margin: 72px 0 8px 0;
+}
